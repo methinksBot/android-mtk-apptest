@@ -4,9 +4,10 @@ This is a link to [한글](https://github.com/methinksBot/android-mtk-apptest/bl
 
 In your `build.gradle` or `build.gradle.kts`, please add dependency repositories,
 
-#Setup
+# Setup
 
-###1. Add repositories.
+## 1. Add repositories
+Make sure `NOT` to add to `buildscript` .
 
 ```
 allprojects {
@@ -23,14 +24,17 @@ allprojects {
 
 ```
 
-###2. Add dependency
+## 2. Add dependency
+Please find the latest release version. 
+
 ```
 dependencies {
   implementation('com.github.methinksBot:android-mtk-apptest:latestVersion')
 }
 ```
 
-###3. Set minSDK level and compile & target SDK level
+## 3. Set minSDK level and compile & target SDK level
+
 
 ```
   ...
@@ -40,7 +44,7 @@ dependencies {
   ...
 ```
 
-#Initiate the SDK
+# Initiate the SDK
 Please contact your project manager to get `projectId` and other values for initialization
 On your main activity's `onCreated()`
 
