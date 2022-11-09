@@ -87,7 +87,7 @@
     <dependency>
       <groupId>com.github.methinksBot</groupId>
       <artifactId>android-mtk-shared-module</artifactId>
-      <version>0.7</version>
+      <version>0.8</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
