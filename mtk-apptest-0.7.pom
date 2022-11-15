@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.methinksBot</groupId>
   <artifactId>mtk-apptest</artifactId>
-  <version>0.6</version>
+  <version>0.7</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -87,31 +87,31 @@
     <dependency>
       <groupId>com.github.methinksBot</groupId>
       <artifactId>android-mtk-shared-module</artifactId>
-      <version>0.8</version>
+      <version>0.9</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.github.methinksBot</groupId>
       <artifactId>android-mtk-common</artifactId>
-      <version>0.8</version>
+      <version>0.9</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.github.methinksBot</groupId>
       <artifactId>android-mtk-forum</artifactId>
-      <version>0.5</version>
+      <version>0.6</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.github.methinksBot</groupId>
       <artifactId>android-mtk-client-rtc</artifactId>
-      <version>0.1</version>
+      <version>0.2</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.github.methinksBot</groupId>
       <artifactId>android-mtk-section-survey</artifactId>
-      <version>0.4</version>
+      <version>0.5</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
